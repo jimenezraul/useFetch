@@ -17,9 +17,9 @@ const useFetch = (url, method, params) => {
           body: JSON.stringify(params),
         });
 
-        const json = await response.json();
+        const res = await response.json();
 
-        setData(json);
+        setData(res);
         setLoading(false);
       } catch (error) {
         setError(error);
