@@ -15,7 +15,7 @@ npm i ufetch-hook
 useFetch takes 3 parameters:
 
 - url: The url of the API.
-- method: The method of the request.
+- method: The method of the request. (GET, POST, PUT, PATCH, DELETE)
 - body: The body of the request. (this parameter is only used for POST, PUT and PATCH methods)
 
 useFetch returns an object with 3 properties:
