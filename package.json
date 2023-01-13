@@ -1,6 +1,6 @@
 {
   "name": "ufetch-hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "useFetch is a custom hook that allows you to make a fetch request and get the response data, error and loading status.",
   "keywords": [
     "hooks",
@@ -11,13 +11,14 @@
     "fetch",
     "api"
   ],
-  "main": "useFetch.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packpackage": "npm pack"
   },
   "author": "Raul Jimenez",
   "license": "ISC",
-   "peerDependencies": {
+  "peerDependencies": {
     "react": "^18.0.0 || ^17.0.0 || ^16.8.0"
   },
   "repository": {
