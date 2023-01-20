@@ -1,6 +1,14 @@
 {
   "name": "ufetch-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "types": "index.d.ts",
+  "typesVersions": {
+    "<=4.0": {
+      "*": [
+        "ts4.0/*"
+      ]
+    }
+  },
   "description": "useFetch is a custom hook that allows you to make a fetch request and get the response data, error and loading status.",
   "keywords": [
     "hooks",

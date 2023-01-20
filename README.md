@@ -9,6 +9,10 @@ useFetch is a React hook to fetch data from an API and return the data, loading 
 ```js
 npm i ufetch-hook
 ```
+or 
+```
+yarn add ufetch-hook
+```
 
 ## Parameters
 
