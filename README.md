@@ -1,4 +1,5 @@
-# useFetch
+# useFetch   
+![npm](https://img.shields.io/npm/dw/ufetch-hook)
 
 ## Description
 

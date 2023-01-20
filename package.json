@@ -1,6 +1,6 @@
 {
   "name": "ufetch-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "types": "index.d.ts",
   "typesVersions": {
     "<=4.0": {
